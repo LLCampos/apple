@@ -1,0 +1,232 @@
+html {
+    font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #08C;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.45;
+    font-weight: 400;
+    letter-spacing: normal;
+    background-color: #FFF;
+    color: #333;
+    font-style: normal
+}
+
+#global-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 52.8px;
+    width: 100%;
+    background-color: #333;
+}
+
+#global-nav ul {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    height: inherit;
+}
+
+.global-nav-items a {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 2.75;
+    font-weight: 400;
+    opacity: 1;
+}
+
+.global-nav-items a {
+    position: relative;
+    margin: 10px 46px;
+    top: 4px;
+}
+
+
+#global-nav li {
+    display: inline-block;
+    vertical-align: top;
+    height: inherit;
+}
+
+#info-ipad-pro {
+    position: absolute;
+    left: 0;
+    top: 52.8px;
+    height: 780px;
+    width: 100%;
+    background: url("../images/hero.jpg") 100px 260px no-repeat;
+}
+
+#header-main {
+    text-align: center;
+}
+
+#header-main h1 {
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 200;
+    letter-spacing: -0.015em;
+    margin-bottom: 0;
+}
+
+#header-main h2 {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 200;
+    letter-spacing: -0.025em;
+    margin: 4px 0;
+}
+
+#header-main ul {
+    padding-left: 0;
+}
+
+#header-main li {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 200;
+    margin: auto 10px;
+}
+
+#header-main li a:hover {
+    color: #333;
+}
+
+
+#promos {
+    position: absolute;
+    top: 820px;
+    left: 0;
+}
+
+#promos li {
+    display: inline-block;
+    vertical-align: top;
+    width: 333px;
+    height: 240px;
+}
+
+#promos ul {
+    padding-left: 0;
+}
+
+#promo1 {
+    background: url("../images/watch.jpg") -150px 0 no-repeat;
+}
+
+#promo2 {
+    background: url("../images/new-iphone.jpg") -150px 0 no-repeat;
+}
+
+#promo3 {
+    background: url("../images/ios.jpg") -150px 0 no-repeat;
+}
+
+#promo4 {
+    background: url("../images/macbook.jpg") -150px 0 no-repeat;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    top: 1043px;
+    left: 0;
+    height: 417px;
+    background-color: #F3F3F3;
+}
+
+#columns-footer1 {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#footer1 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+}
+
+#footer1 li {
+    display: inline-block;
+    width: 230px;
+    vertical-align: top;
+    margin-bottom: 4px;
+}
+
+.lines a,
+#footer2 ul a,
+#country a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 200;
+}
+
+.lines a:hover,
+#footer2 ul a:hover,
+#country a:hover {
+    text-decoration: underline;
+}
+
+.header-footer1 {
+    margin-top: 30px;
+}
+
+#info-footer {
+    display: inline-block;
+    width: 1200px;
+    color: #999;
+    font-weight: 200;
+    margin-left: 40px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+
+#footer2 li {
+    display: inline-block;
+    border-right: 1px solid #E3E3E3;
+    padding: 0 15px;
+}
+
+#copyright,
+#footer2 ul,
+#country {
+    margin-top: 0;
+    display: inline;
+    font-size: 12px;
+}
+
+#copyright {
+    color: #999;
+    margin-left: 80px;
+}
+
+#country {
+    position: relative;
+    display: inline;
+    float: right;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+#text-country {
+    position: relative;
+    bottom: 6px;
+    left: 1px;
+}
+
+#flag {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url("../images/usa.gif") -11px -6px no-repeat;
+    background-size: auto 150%;
+    border-radius: 50%;
+    border: 1px solid #E3E3E3;
+}
